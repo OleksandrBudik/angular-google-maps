@@ -69,6 +69,8 @@ export interface ClusterOptions {
 
   imagePath?: string;
   imageExtension?: string;
+
+  calculator?: any;
 }
 
 export interface ClusterStyle {
