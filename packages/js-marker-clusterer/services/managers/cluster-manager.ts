@@ -27,7 +27,7 @@ export class ClusterManager extends MarkerManager {
     this._mapsWrapper.getNativeMap().then(map => {
       var calc = function(markers: any, numStyles: any) {                
                 for (var i = 0; i < markers.length; i++) {
-                    if (markers[i].getIcon().indexOf("false") > -1) {
+                    if (markers[i].getIcon().indexOf("true") !== -1) {
                     return {text: markers.length, index: 2};
                     }
                 }
