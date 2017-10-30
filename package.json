@@ -1,6 +1,6 @@
 {
   "name": "@agmbudik/dev",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "description": "Angular 2+ components for Google Maps",
   "repository": {
     "type": "git",
