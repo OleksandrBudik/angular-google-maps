@@ -1,7 +1,6 @@
 {
   "name": "@agmbudik/js-marker-clusterer",
   "version": "INSERT_HERE_VIA_BUILD_PROCESS",
-  "private": true,
   "description": "Angular Google Maps (AGM) extension for js-marker-clusterer support",
   "repository": {
     "type": "git",
