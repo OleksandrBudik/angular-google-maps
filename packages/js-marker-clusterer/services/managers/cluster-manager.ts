@@ -34,6 +34,7 @@ export class ClusterManager extends MarkerManager {
                 return {text: markers.length, index: 1};
             }               
       const clusterer = new MarkerClusterer(map, [], options);
+      clusterer.setCalculator(calc);
       this._resolver(clusterer);
     });
   }
