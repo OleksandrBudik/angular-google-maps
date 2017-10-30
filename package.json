@@ -19,7 +19,7 @@
   "scripts": {
     "clean": "rimraf dist && rimraf .tmp && mkdir dist && mkdir .tmp && rimraf 'packages/**/*.ngfactory.ts'",
     "prebuild": "npm run clean",
-    "build": "npm run lint && npm run scripts && npm run packagejson && npm run copyassets",
+    "build": "npm run scripts && npm run packagejson && npm run copyassets",
     "lint": "tslint -c tslint.json 'packages/**/*.ts'",
     "packagejson": "node ./scripts/create-package-json.js",
     "copyassets": "node ./scripts/copy-package-assets.js",
