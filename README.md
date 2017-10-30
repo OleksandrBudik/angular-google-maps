@@ -9,7 +9,7 @@ Angular 2+ components for Google Maps. (Previously known as angular2-google-maps
 **CAUTION:** The project name has changed from `angular2-google-maps` maps to `AGM - Angular Google Maps` because [#itsJustAngular](http://angularjs.blogspot.de/2017/01/branding-guidelines-for-angular-and.html) and we want to support all upcomming Angular versions.
 
 Old package name: `angular2-google-maps`  
-New package name: `@agm/core`
+New package name: `@agmbudik/core`
 
 **==> Please see the [CHANGELOG.md](CHANGELOG.md) file for more migration details.**
 
@@ -23,7 +23,7 @@ New package name: `@agm/core`
 
 | Package                               | Downloads                                                                       |
 |---------------------------------------|---------------------------------------------------------------------------------|
-| New package name @agm/core            | ![@agm/core](https://img.shields.io/npm/dm/@agm/core.svg)                       |
+| New package name @agmbudik/core            | ![@agmbudik/core](https://img.shields.io/npm/dm/@agm/core.svg)                       |
 | Old package name angular2-google-maps | ![angular2-google-maps](https://img.shields.io/npm/dm/angular2-google-maps.svg) |
 ---
 
@@ -40,7 +40,7 @@ If you just want to play with AGM and don't want to set up a full project, you c
   You can install the package with the following command:
 
 ```shell
-npm install @agm/core
+npm install @agmbudik/core
 ```
 
 You should also checkout the [Getting started](https://angular-maps.com/guides/getting-started/) guide for further information.

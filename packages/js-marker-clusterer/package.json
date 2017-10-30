@@ -1,5 +1,5 @@
 {
-  "name": "@agm/clusterer-src",
+  "name": "@agmbudik/clusterer-src",
   "dependencies": {
     "@agm/core": "file:../core"
   }

@@ -1,5 +1,5 @@
 import { Host, SkipSelf, AfterViewInit, EventEmitter, Input, SimpleChanges, ViewContainerRef, TemplateRef, Output, Optional, OnDestroy, ElementRef, Component, ViewChild, ContentChild } from '@angular/core';
-import { AgmMarker, GoogleMapsAPIWrapper, MarkerManager, MapsAPILoader } from '@agm/core';
+import { AgmMarker, GoogleMapsAPIWrapper, MarkerManager, MapsAPILoader } from '@agmbudik/core';
 
 declare var System: any;
 
